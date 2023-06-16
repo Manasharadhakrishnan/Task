@@ -1,0 +1,80 @@
+.edit-icon {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+    position: relative;
+    display: inline-block;
+}
+
+/* .snooze-icon {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 100%;
+    color: #ccc;
+    cursor: pointer;
+} */
+
+/* .tick-icon {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 100%;
+    color: #ccc;
+    cursor: pointer;
+} */
+
+.react-datepicker__input-container {
+    position: relative;
+}
+
+.react-datepicker__input-container .calendar-icon,
+.input-group-prepend .input-group-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.input-group-append .input-group-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.input-group-append .input-group-text.arrow-icon {
+    pointer-events: auto;
+}
+
+/* select.form-control option:checked {
+    background: url('path/to/tick-icon.png') no-repeat 2px center;
+    padding-left: 25px;
+} */
+
+/* 
+.time-input-wrapper {
+    position: relative;
+}
+
+.time-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.time-picker {
+    position: absolute;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    top: calc(100% + 5px);
+    right: 0;
+} */
+.time-icon {
+    color: black;
+}
